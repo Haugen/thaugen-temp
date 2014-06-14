@@ -62,4 +62,8 @@ ul li {
     h1 div {
         margin-top: 15px;
     }
+    ul li {
+        display: block;
+        margin: 15px 0;
+    }
 }
