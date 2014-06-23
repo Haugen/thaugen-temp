@@ -32,8 +32,11 @@ a {
 h1 {
     font-family: Georgia, serif;
     font-size: 61px;
-    line-height: 28px;
+    line-height: 40px;
     margin: 40px 0 30px;
+}
+h1 div {
+    line-height: 30px;
 }
 h1 div {
     font-family: 'Roboto', sans-serif;
