@@ -1,15 +1,40 @@
-/**
- * Main css
- */
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+/* Main css */
 * { 
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Gotham';
+  src: url("gotham/Gotham-Light.ttf");
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham', sans-serif;
     background-color: #fff;
-    color: #939597;
+    color: #777;
+    font-size: 17px;
+    line-height: 25px;
+}
+h1 {
+    background: url("images/headline.png") no-repeat;
+    width: 268px;
+    height: 49px;
+    text-indent: -10000px;
+    margin: 40px auto 30px;
 }
 a {
     color: #85629d;
@@ -18,30 +43,64 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.wrapper {
-	width: 550px;
-    margin: 50px auto;
-    max-width: 100%;
-    padding: 0 30px;
-    text-align: center;
+p {
+    margin: 15px 0;
 }
-
-h1 {
-    background: url("headline.png") no-repeat;
-    width: 268px;
-    height: 49px;
-    text-indent: -10000px;
-    margin: 0 auto;
+p.larger {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: lighter;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
 ul li {
     list-style: none;
-    display: inline;
-    margin: 0 10px;
+}
+
+/* Photo and social media icons */
+.links {
+    width: 120px;
+    margin: 0 auto;
+}
+.links a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -10000px;
+    float: left;
+    margin: 0 5px;
+}
+.links .twitter a {
+    background: url("images/twitter_logo.png") no-repeat;
+}
+.links .linkedin a {
+    background: url("images/linkedin_logo.png") no-repeat;
+}
+
+/* Profile image */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    margin: 0 auto 10px;
+    background: url("images/tobias-haugen.png") no-repeat;
+}
+.profile-image img {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/* Other */
+.wrapper {
+    width: 550px;
+    margin: 50px auto;
+    max-width: 100%;
+    padding: 0 30px;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
