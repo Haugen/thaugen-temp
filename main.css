@@ -18,12 +18,16 @@
     -webkit-box-sizing: border-box;
 }
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham-light';
   src: url("gotham/Gotham-Light.ttf");
+}
+@font-face {
+  font-family: 'Gotham-medium';
+  src: url("gotham/Gotham-Medium.ttf");
 }
 
 body {
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-light', sans-serif;
     background-color: #fff;
     color: #777;
     font-size: 17px;
@@ -39,6 +43,7 @@ h1 {
 a {
     color: #85629d;
     text-decoration: none;
+    font-family: 'Gotham-medium', sans-serif;
 }
 a:hover {
     text-decoration: underline;
