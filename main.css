@@ -25,11 +25,15 @@
   font-family: 'Gotham-medium';
   src: url("gotham/Gotham-Medium.ttf");
 }
+@font-face {
+  font-family: 'Gotham-xlight';
+  src: url("gotham/Gotham-XLight.ttf");
+}
 
 body {
     font-family: 'Gotham-light', sans-serif;
     background-color: #fff;
-    color: #777;
+    color: #333;
     font-size: 17px;
     line-height: 25px;
 }
@@ -58,7 +62,8 @@ p {
 p.larger {
     font-size: 22px;
     line-height: 28px;
-    font-weight: lighter;
+    font-family: 'Gotham-xlight', sans-serif;
+    color: #000;
 }
 ul {
     margin: 0;
