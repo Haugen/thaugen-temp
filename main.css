@@ -34,7 +34,7 @@ h1 {
     width: 268px;
     height: 49px;
     text-indent: -10000px;
-    margin: 40px auto 30px;
+    margin: 20px auto 30px;
 }
 a {
     color: #85629d;
@@ -101,7 +101,7 @@ ul li {
 /* Other */
 .wrapper {
     width: 550px;
-    margin: 50px auto;
+    margin: 30px auto;
     max-width: 100%;
     padding: 0 30px;
     text-align: center;
