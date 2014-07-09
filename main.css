@@ -73,6 +73,19 @@ ul li {
     list-style: none;
 }
 
+/* Layout */
+.wrapper {
+    width: 550px;
+    margin: 30px auto;
+    max-width: 100%;
+    padding: 0 30px;
+    text-align: center;
+}
+.footer {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
 /* Photo and social media icons */
 .links {
     width: 120px;
@@ -108,15 +121,7 @@ ul li {
     filter: alpha(opacity=0);
 }
 
-/* Other */
-.wrapper {
-    width: 550px;
-    margin: 30px auto;
-    max-width: 100%;
-    padding: 0 30px;
-    text-align: center;
-}
-
+/* Responsive stuff */
 @media (max-width: 600px) {
     .wrapper {
         width: 100%;
