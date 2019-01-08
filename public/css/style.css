@@ -1,3 +1,62 @@
-.logo {
-  margin-top: 30px;
+/*
+ * Minor CSS reset.
+ */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * Styling
+ */
+p {
+  margin-bottom: 20px;
+}
+
+#profile-pic {
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.content {
+  width: 600px;
+  margin: 20px auto 0;
+  max-width: 100%;
+}
+
+.content h1 {
+  text-align: center;
 }
