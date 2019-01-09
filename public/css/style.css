@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0 20px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 *,
@@ -30,6 +31,15 @@ ul {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 ul,
 ol {
   list-style: none;
@@ -47,6 +57,17 @@ p {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 28px;
+}
+
+a {
+  color: blueviolet;
+}
+a:hover {
+  color: blueviolet;
+}
+
 #profile-pic {
   display: block;
   margin: 40px auto;
@@ -59,6 +80,10 @@ p {
   width: 600px;
   margin: 0 auto 40px;
   max-width: 100%;
+}
+
+.content .lead {
+  font-size: 22px;
 }
 
 .content footer {
