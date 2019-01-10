@@ -71,9 +71,11 @@ h2 {
 
 a {
   color: blueviolet;
+  text-decoration: none;
 }
 a:hover {
   color: blueviolet;
+  text-decoration: underline;
 }
 
 #profile-pic {
@@ -93,6 +95,10 @@ a:hover {
 .content .lead {
   font-size: 22px;
   line-height: 30px;
+}
+
+.content .small {
+  font-size: 13px;
 }
 
 .content footer {
